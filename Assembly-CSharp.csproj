@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CAF6EEB4-1BF7-26A5-79C8-471EA372B20C}</ProjectGuid>
+    <ProjectGuid>{1EF20953-3FDA-3481-6175-3869491BB76E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\ActivateGravity.cs" />
      <Compile Include="Assets\Crystal.cs" />
+     <Compile Include="Assets\FadeTextInAndOut.cs" />
+     <Compile Include="Assets\PrologueHeroAnimation.cs" />
      <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
      <Compile Include="Assets\Scripts\BackgroundPropSpawner.cs" />
      <Compile Include="Assets\Scripts\Bomb.cs" />

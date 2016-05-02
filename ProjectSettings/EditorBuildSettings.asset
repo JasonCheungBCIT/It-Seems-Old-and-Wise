@@ -22,6 +22,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level7.unity
   - enabled: 1
+    path: Assets/Scenes/LevelR8.unity
+  - enabled: 1
+    path: Assets/Scenes/LevelR9.unity
+  - enabled: 1
     path: Assets/Scenes/LevelR10.unity
   - enabled: 1
     path: Assets/Scenes/LevelR11.unity
@@ -33,7 +37,3 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelR14.unity
   - enabled: 1
     path: Assets/Scenes/LevelR15.unity
-  - enabled: 1
-    path: Assets/Scenes/LevelR8.unity
-  - enabled: 1
-    path: Assets/Scenes/LevelR9.unity
