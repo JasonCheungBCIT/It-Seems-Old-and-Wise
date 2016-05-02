@@ -3527,6 +3527,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25788bd957df72c4ba33eb187ed8f399, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1134575114 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11467902, guid: 25788bd957df72c4ba33eb187ed8f399,
+    type: 2}
+  m_PrefabInternal: {fileID: 1134575113}
+  m_Script: {fileID: 11500000, guid: 52f1eac8b5bbce940a4c8406e5b18a2b, type: 3}
 --- !u!1001 &1198540354
 Prefab:
   m_ObjectHideFlags: 0
@@ -4099,6 +4105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: LevelR11
+  helper: {fileID: 1134575114}
 --- !u!61 &1411418297
 BoxCollider2D:
   m_ObjectHideFlags: 0

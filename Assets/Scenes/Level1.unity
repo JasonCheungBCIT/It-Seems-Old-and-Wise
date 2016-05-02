@@ -2111,6 +2111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: Level2
+  helper: {fileID: 1227953382}
 --- !u!61 &1139795121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2352,6 +2353,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25788bd957df72c4ba33eb187ed8f399, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1227953382 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11467902, guid: 25788bd957df72c4ba33eb187ed8f399,
+    type: 2}
+  m_PrefabInternal: {fileID: 1227953381}
+  m_Script: {fileID: 11500000, guid: 52f1eac8b5bbce940a4c8406e5b18a2b, type: 3}
 --- !u!1001 &1232802621
 Prefab:
   m_ObjectHideFlags: 0

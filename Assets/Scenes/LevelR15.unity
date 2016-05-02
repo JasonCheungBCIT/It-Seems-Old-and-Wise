@@ -1965,6 +1965,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25788bd957df72c4ba33eb187ed8f399, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1044878882 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11467902, guid: 25788bd957df72c4ba33eb187ed8f399,
+    type: 2}
+  m_PrefabInternal: {fileID: 1044878881}
+  m_Script: {fileID: 11500000, guid: 52f1eac8b5bbce940a4c8406e5b18a2b, type: 3}
 --- !u!4 &1059201422 stripped
 Transform:
   m_PrefabParentObject: {fileID: 484300, guid: 6a0a43f25609bd043822a943cebf887d, type: 2}
@@ -2005,7 +2011,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685d2ee740074e544b60fd4f49ca8a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: End
+  nextLevel: Epilogue
+  helper: {fileID: 1044878882}
 --- !u!61 &1146085490
 BoxCollider2D:
   m_ObjectHideFlags: 0

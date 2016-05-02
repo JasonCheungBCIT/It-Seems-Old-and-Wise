@@ -2412,6 +2412,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 25788bd957df72c4ba33eb187ed8f399, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &414982070 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11467902, guid: 25788bd957df72c4ba33eb187ed8f399,
+    type: 2}
+  m_PrefabInternal: {fileID: 414982069}
+  m_Script: {fileID: 11500000, guid: 52f1eac8b5bbce940a4c8406e5b18a2b, type: 3}
 --- !u!1 &456147316
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: LevelR13
+  helper: {fileID: 414982070}
 --- !u!61 &456147318
 BoxCollider2D:
   m_ObjectHideFlags: 0

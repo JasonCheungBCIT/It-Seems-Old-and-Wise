@@ -5,6 +5,7 @@ public class PrologueHeroAnimation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		StartCoroutine (PlayAnimation());
 		// PlayAnimation ();
 	}
 	
@@ -12,13 +13,14 @@ public class PrologueHeroAnimation : MonoBehaviour {
 	void Update () {
 	
 	}
-	/*
+
 	public IEnumerator PlayAnimation()
 	{
-		yield return WaitForSeconds(2);
+		yield return new WaitForSeconds(2f);
 		transform.localScale = new Vector3 (1f, 1f, 1f);
-		yield return WaitForSeconds(5);
-		GetComponent<Rigidbody2D> ().velocity = new Vector2 (10, 0);
+		GetComponent<Rigidbody2D> ().velocity = new Vector2 (1, 0);
+		//yield return new WaitForSeconds(5f);
+		//GetComponent<Rigidbody2D> ().velocity = new Vector2 (10, 0);
 	}
-	*/
+
 }

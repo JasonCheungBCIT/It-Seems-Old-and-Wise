@@ -31,7 +31,7 @@ TagManager:
   - Ground
   - Behind
   - Background
-  - 
+  - Foreground
   - 
   - 
   - 
@@ -52,11 +52,11 @@ TagManager:
   - name: Behind
     uniqueID: 1661000935
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 1535931219
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Character
     uniqueID: 2511236001
