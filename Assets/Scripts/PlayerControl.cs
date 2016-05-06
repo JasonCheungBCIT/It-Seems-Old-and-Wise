@@ -11,7 +11,6 @@ public class PlayerControl : MonoBehaviour
 	public bool jumpEnabled = true;
 	public bool dashEnabled = true;
 
-	[HideInInspector]
 	public bool facingRight = true;			// For determining which way the player is currently facing.
 	[HideInInspector]
 	public bool jump = false;				// Condition for whether the player should jump.
