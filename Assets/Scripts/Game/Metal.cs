@@ -9,7 +9,7 @@ public class Metal : MonoBehaviour, Growable {
 
 	// Use this for initialization
 	void Start () {
-		GetComponent<SpriteRenderer> ().color = new Color(92 / 255f, 92 / 255f, 92 / 255f);
+
 	}
 	
 	// Update is called once per frame
@@ -27,7 +27,7 @@ public class Metal : MonoBehaviour, Growable {
 			
 		// Grow 
 		progress += speed;
-		GetComponent<SpriteRenderer> ().color = getColor();
+		GetComponent<SpriteRenderer> ().color = TintColor();
 	}
 
 	private Color getColor() {
@@ -35,7 +35,16 @@ public class Metal : MonoBehaviour, Growable {
 		r = (92 + (183 - 92) * progress) / 255;	
 		g = (92 + (65 - 92)  * progress) / 255;
 		b = (92 + (14 - 93)  * progress) / 255;
-		Debug.Log ("r " + r + " g " + g + " b " + b);
+		return new Color (r, g, b, 1);
+	}
+
+	private Color TintColor() {
+		float r, g, b; // percentage r g b
+		// Note: (Base - difference * progress %) / to percentage 
+		// Alt: 1f - progress - (183f * progress / 255f) 
+		r = (255 - (255 - 183) * progress) / 255;
+		g = (255 - (255 - 65) * progress) / 255;
+		b = (255 - (255 - 14) * progress) / 255;
 		return new Color (r, g, b, 1);
 	}
 }
