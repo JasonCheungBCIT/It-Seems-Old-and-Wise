@@ -1665,7 +1665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685d2ee740074e544b60fd4f49ca8a92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Epilogue
+  nextLevel: _Epilogue
   helper: {fileID: 1044878882}
 --- !u!61 &1146085490
 BoxCollider2D:

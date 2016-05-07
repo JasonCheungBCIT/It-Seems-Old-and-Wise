@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Level.unity
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Scenes/_Menu.unity
   - enabled: 1
-    path: Assets/Scenes/Prologue.unity
+    path: Assets/Scenes/_Prologue.unity
   - enabled: 1
     path: Assets/Scenes/Level1.unity
   - enabled: 1
@@ -42,6 +42,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelR15.unity
   - enabled: 1
-    path: Assets/Scenes/Epilogue.unity
+    path: Assets/Scenes/_Epilogue.unity
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/_Credits.unity

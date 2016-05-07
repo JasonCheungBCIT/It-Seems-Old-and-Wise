@@ -101,6 +101,11 @@ public class PlayerControl : MonoBehaviour
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 
+		/* return to menu */
+		if (Input.GetKey (KeyCode.M)) {
+			SceneManager.LoadScene ("_Menu");
+		}
+
 	}
 
 
@@ -186,43 +191,5 @@ public class PlayerControl : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-
-	/*
-	public IEnumerator Taunt()
-	{
-		// Check the random chance of taunting.
-		float tauntChance = Random.Range(0f, 100f);
-		if(tauntChance > tauntProbability)
-		{
-			// Wait for tauntDelay number of seconds.
-			yield return new WaitForSeconds(tauntDelay);
-
-			// If there is no clip currently playing.
-			if(!GetComponent<AudioSource>().isPlaying)
-			{
-				// Choose a random, but different taunt.
-				tauntIndex = TauntRandom();
-
-				// Play the new taunt.
-				GetComponent<AudioSource>().clip = taunts[tauntIndex];
-				GetComponent<AudioSource>().Play();
-			}
-		}
-	}
-
-
-	int TauntRandom()
-	{
-		// Choose a random index of the taunts array.
-		int i = Random.Range(0, taunts.Length);
-
-		// If it's the same as the previous taunt...
-		if(i == tauntIndex)
-			// ... try another random taunt.
-			return TauntRandom();
-		else
-			// Otherwise return this index.
-			return i;
-	}
-	*/
+		
 }
